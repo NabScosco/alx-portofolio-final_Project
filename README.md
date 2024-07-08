@@ -98,14 +98,16 @@ This project is a modern real estate website designed to facilitate the buying, 
 
       4. Push to the branch.
       ```git push origin feature/your-feature-name
+      ```
 
-```
       5. Create a pull request.
 
 ## License
+
     This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
+
     For any inquiries or support, please contact:
 
 Name: Kingsley Fynn Asaam
@@ -113,17 +115,14 @@ Email: kingsley.asaa@gmail.com
 GitHub: NabScosco
 
 ## Acknowledgements
-  - Tailwind CSS for the utility-first CSS framework.
-  - Google OAuth for secure authentication.
-  - JSON Web Tokens (JWT) for secure communication.
-  - Google Maps API for map-based search functionality.
+
+- Tailwind CSS for the utility-first CSS framework.
+- Google OAuth for secure authentication.
+- JSON Web Tokens (JWT) for secure communication.
+- Google Maps API for map-based search functionality.
 
 Thank you for using our real estate website!
 
 ```
-
 This README file provides a comprehensive overview of the project, including its features, technology stack, installation instructions, usage guidelines, and contribution details. It ensures that anyone interested in the project can easily understand and get started with it.
-
-```
-
 ```
