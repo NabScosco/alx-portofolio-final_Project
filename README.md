@@ -110,9 +110,9 @@ This project is a modern real estate website designed to facilitate the buying, 
 
     For any inquiries or support, please contact:
 
-Name: Kingsley Fynn Asaam
-Email: kingsley.asaa@gmail.com
-GitHub: NabScosco
+**Name:** Kingsley Fynn Asaam.
+**Email:** kingsley.asaa@gmail.com.
+**GitHub:** NabScosco.
 
 ## Acknowledgements
 
@@ -122,7 +122,3 @@ GitHub: NabScosco
 - Google Maps API for map-based search functionality.
 
 Thank you for using our real estate website!
-
-```
-This README file provides a comprehensive overview of the project, including its features, technology stack, installation instructions, usage guidelines, and contribution details. It ensures that anyone interested in the project can easily understand and get started with it.
-```
