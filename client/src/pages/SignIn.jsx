@@ -42,10 +42,9 @@ export default function SignIn() {
       dispatch(signInFailure(error.message));
     }
   };
-
   return (
     <div className="p-3 max-w-lg mx-auto">
-      <h1 className="text-3xl text-center font-semibold my-7"> Sign In</h1>
+      <h1 className="text-3xl text-center font-semibold my-7">Sign In</h1>
       <form
         onSubmit={handleSubmit}
         className="flex flex-col gap-4"
@@ -64,8 +63,8 @@ export default function SignIn() {
           id="password"
           onChange={handleChange}
         />
+
         <button
-          type="submit"
           disabled={loading}
           className="bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80"
         >
@@ -74,12 +73,12 @@ export default function SignIn() {
         <OAuth />
       </form>
       <div className="flex gap-2 mt-5">
-        <p>Dont you have an account?</p>
-        <Link to={"/sing-up"}>
-          <span className="text-blue-700">Sign Up</span>
+        <p>Dont have an account?</p>
+        <Link to={"/sign-up"}>
+          <span className="text-blue-700">Sign up</span>
         </Link>
       </div>
-      {error && <p className="text-red-500 mt-5"> {error}</p>}
+      {error && <p className="text-red-500 mt-5">{error}</p>}
     </div>
   );
 }

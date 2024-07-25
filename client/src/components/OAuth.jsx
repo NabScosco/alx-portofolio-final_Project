@@ -9,9 +9,11 @@ export default function OAuth() {
   const navigate = useNavigate();
   const handleGoogleClick = async () => {
     try {
-      const Provider = new GoogleAuthProvider();
+      const provider = new GoogleAuthProvider();
       const auth = getAuth(app);
-      const result = await signInWithPopup(auth, Provider);
+
+      const result = await signInWithPopup(auth, provider);
+
       const res = await fetch("/api/auth/google", {
         method: "POST",
         headers: {
@@ -27,7 +29,7 @@ export default function OAuth() {
       dispatch(signInSuccess(data));
       navigate("/");
     } catch (error) {
-      console.log("Could not sign in with Google", error);
+      console.log("could not sign in with google", error);
     }
   };
   return (
@@ -36,7 +38,7 @@ export default function OAuth() {
       type="button"
       className="bg-red-700 text-white p-3 rounded-lg uppercase hover:opacity-95"
     >
-      Sign in with Google
+      Continue with google
     </button>
   );
 }
